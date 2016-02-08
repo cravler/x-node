@@ -1,0 +1,38 @@
+{
+  "name": "x-node",
+  "description": "Extra library",
+  "author": {
+    "name": "Sergei Vizel",
+    "email": "sergei.vizel@gmail.com",
+    "url": "https://github.com/cravler"
+  },
+  "homepage": "https://github.com/cravler/x-node",
+  "keywords": [
+    "extra",
+    "library"
+  ],
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1"
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "mocha": "~2.3.4",
+    "rewire": "~2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cravler/x-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cravler/x-node/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive -R spec"
+  }
+}
